@@ -1,0 +1,9 @@
+# Orca repository configuration for AbleVarghese.github.io
+# Static GitHub Pages portfolio site (no build step or dependencies required)
+
+scripts:
+  setup: |
+    echo "✓ AbleVarghese.github.io static site ready"
+
+# Base branch for new worktrees
+baseRef: origin/main
