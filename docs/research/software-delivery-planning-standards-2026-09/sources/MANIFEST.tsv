@@ -1,0 +1,7 @@
+id	url	http_status	bytes	sha256	accessed_utc
+SD01	https://csrc.nist.gov/pubs/sp/800/218/final	CURL_ERROR	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	2026-09-24T00:17:42Z
+SD02	https://csrc.nist.gov/pubs/sp/800/61/r3/final	CURL_ERROR	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	2026-09-24T00:17:52Z
+SD03	https://owaspsamm.org/model/	CURL_ERROR	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	2026-09-24T00:18:02Z
+SD04	https://owasp.org/www-project-application-security-verification-standard/	CURL_ERROR	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	2026-09-24T00:18:12Z
+SD05	https://slsa.dev/spec/v1.1/	CURL_ERROR	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	2026-09-24T00:18:22Z
+SD06	https://www.cisa.gov/securebydesign	CURL_ERROR	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	2026-09-24T00:18:32Z

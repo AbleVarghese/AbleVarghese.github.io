@@ -1,0 +1,16 @@
+
+== docs/architecture/FOUNDATION-ARCHITECTURE-PLAN-2026-09.md ==
+  FOUNDATION-ARCHITECTURE-PLAN-2026-09.md words=2500  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS
+
+== docs/decisions/ADR-003-identity-and-integration-foundation-2026-09.md ==
+  ADR-003-identity-and-integration-foundation-2026-09.md words=1792  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS
+
+== docs/research/foundation-architecture-research-2026-09.md ==
+  foundation-architecture-research-2026-09.md words=1358  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS
+
+== docs/research/crm-erp-admin-portal-landscape-2026-09.md ==
+  crm-erp-admin-portal-landscape-2026-09.md words=1959  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS

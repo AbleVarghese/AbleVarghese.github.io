@@ -1,0 +1,7 @@
+SELF-HOSTED AUTHORITY PLATFORM VALIDATION: PASS
+source_collection=64 bounded GitHub receipts; 58 available; 6 explicit unavailable
+licenses=8/8 direct source records; PostgreSQL SPDX=NOASSERTION is surfaced
+current_site=static public repo; forms=0; external_scripts=0; resume_source=absent
+matrix=byte-identical recomputation; AHP_CR=0.000; staged_direct=93.7% robust
+architecture=managed dependencies excluded; private-core/recovery/operations gates present
+local_links=resolved; whitespace=clean; research_index=current

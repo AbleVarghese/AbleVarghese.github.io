@@ -1,0 +1,8 @@
+file	query	sort	order	per_page
+crm.json	crm in:name,description,readme stars:>100 archived:false	stars	desc	50
+erp.json	erp in:name,description,readme stars:>100 archived:false	stars	desc	50
+self-hosted-crm.json	"self hosted crm" in:name,description,readme stars:>100 archived:false	stars	desc	50
+internal-tools.json	"internal tools" in:name,description,readme stars:>100 archived:false	stars	desc	50
+admin-portal.json	"admin portal" in:name,description,readme stars:>50 archived:false	stars	desc	50
+laravel-crm.json	"laravel crm" in:name,description,readme stars:>20 archived:false	stars	desc	50
+low-code.json	"low code" in:name,description,readme stars:>100 archived:false	stars	desc	50

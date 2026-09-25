@@ -1,0 +1,2 @@
+Signed in to a testmode account or sandbox. Using unauthenticated directory search; results are not account-scoped.
+A newer version of the directory plugin is available (v0.3.2 → v0.3.4). Run `stripe plugin upgrade directory` to update.

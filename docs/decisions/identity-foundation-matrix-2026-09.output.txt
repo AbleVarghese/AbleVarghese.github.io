@@ -1,0 +1,78 @@
+PROBLEM: How should the proposed authority, B2B consulting, and future private-client-workspace platform stage open-source identity so it preserves the private canonical-data contract, avoids premature account-system construction, and remains reversible until real client-workspace or enterprise-identity demand is observed?
+
+== AHP-derived weights (geometric mean) ==
+  control_boundary         24.0
+  operational_burden       18.0
+  identity_data_alignment   18.0
+  license_and_ownership    15.0
+  reversibility_and_migration   12.0
+  owner_reuse               8.0
+  staged_feature_coverage    5.0
+  lambda_max=7.000  CI=0.000  CR=0.000  -> consistent (trustworthy)
+  divergence vs stated weights (>8 pts flagged):
+    control_boundary     stated  24.0  derived  24.0  d= +0.0
+    operational_burden   stated  18.0  derived  18.0  d= -0.0
+    identity_data_alignment stated  18.0  derived  18.0  d= -0.0
+    license_and_ownership stated  15.0  derived  15.0  d= -0.0
+    reversibility_and_migration stated  12.0  derived  12.0  d= -0.0
+    owner_reuse          stated   8.0  derived   8.0  d= -0.0
+    staged_feature_coverage stated   5.0  derived   5.0  d= -0.0
+  (stated weights drive the matrix below)
+
+== Weighted matrix (cost criteria shown raw(adjusted)) ==
+criterion                w%  0 — No account s  S — Supabase Aut  B — Better Auth   O — Ory Kratos/H  K — Keycloak ide  H — Stage public
+---------------------------------------------------------------------------------------------------------------------------------------
+control_boundary         24                 8                 9                 8                 9                 9                10
+operational_burden       18                10                 9                 9                 4                 3                 7
+identity_data_alignmen   18                 5                10                 7                 5                 4                10
+license_and_ownership    15                10                10                10                10                10                10
+reversibility_and_migr   12                10                 7                 8                 8                 7                10
+owner_reuse [fit]         8                 5                 8                 9                 3                 3                 9
+staged_feature_coverag    5                 1                 7                 8                10                10                 7
+---------------------------------------------------------------------------------------------------------------------------------------
+WEIGHTED TOTAL                           7.77              8.91              8.38              6.98              6.50              9.23
+QUALITY axis                             8.01              8.99              8.33              7.33              6.80              9.25
+FIT axis                                 5.00              8.00              9.00              3.00              3.00              9.00
+
+Leader: H — Stage public-first, then Supabase Auth with a tested Better Auth fallback (9.23)  Runner-up: S — Supabase Auth aligned to the canonical core (8.91)  gap=0.32
+
+== Podium & dual verdict ==
+  1st  H — Stage public-first, then Supabase Auth with a tested Better Auth fallback 9.23
+  2nd  S — Supabase Auth aligned to the canonical core 8.91
+  3rd  B — Better Auth in the TypeScript application 8.38
+  Merit champion (Quality axis, user-agnostic): H — Stage public-first, then Supabase Auth with a tested Better Auth fallback (9.25)
+  Overall winner (context + Fit factored, Quality 92 / Fit 8): H — Stage public-first, then Supabase Auth with a tested Better Auth fallback (9.23)  — same option: merit and fit agree
+
+== Dominance check ==
+  'K — Keycloak identity platform' is DOMINATED by 'O — Ory Kratos/Hydra identity service' — cannot win under any weighting; eliminate.
+
+== Sensitivity 1: one-at-a-time (+/-15% per weight) ==
+  stable — no perturbation changes the leader.
+
+== Sensitivity 2: flip-points (smallest weight change that dethrones the leader) ==
+  control_boundary       flips at > +200% / > -99%
+  operational_burden     flips at +89% / > -99%
+  identity_data_alignment flips at > +200% / > -99%
+  license_and_ownership  flips at > +200% / > -99%
+  reversibility_and_migration flips at > +200% / -89%
+  owner_reuse            flips at > +200% / > -99%
+  staged_feature_coverage flips at > +200% / > -99%
+
+== Sensitivity 3: Monte Carlo robustness (10000 worlds; weights +/-30%, scores +/-uncertainty; seed=20260923) ==
+  H — Stage public-first, then Supabase Auth with a tested Better Auth fallback wins  62.0% of worlds
+  S — Supabase Auth aligned to the canonical core wins  32.7% of worlds
+  B — Better Auth in the TypeScript application wins   5.4% of worlds
+  0 — No account system beyond owner-gated operations wins   0.0% of worlds
+  O — Ory Kratos/Hydra identity service wins   0.0% of worlds
+  K — Keycloak identity platform wins   0.0% of worlds
+  P(H — Stage public-first, then Supabase Auth with a tested Better Auth fallback beats S — Supabase Auth aligned to the canonical core) = 65.5%
+  verdict: FRAGILE — apply Value of Information: buy the cheapest discriminating test, or prefer the more reversible finalist (top win-rate 62.0%)
+
+== Minimax-regret cross-check (Savage-style, per-criterion weighted regret) ==
+  S — Supabase Auth aligned to the canonical core max regret 0.360 (on 'reversibility_and_migration')
+  B — Better Auth in the TypeScript application max regret 0.540 (on 'identity_data_alignment')
+  H — Stage public-first, then Supabase Auth with a tested Better Auth fallback max regret 0.540 (on 'operational_burden')
+  0 — No account system beyond owner-gated operations max regret 0.900 (on 'identity_data_alignment')
+  O — Ory Kratos/Hydra identity service max regret 1.080 (on 'operational_burden')
+  K — Keycloak identity platform max regret 1.260 (on 'operational_burden')
+  DIFFERS: regret-minimizing pick is 'S — Supabase Auth aligned to the canonical core' vs total-score leader 'H — Stage public-first, then Supabase Auth with a tested Better Auth fallback' — the user's risk posture is the tiebreaker (Fit question if unknown).

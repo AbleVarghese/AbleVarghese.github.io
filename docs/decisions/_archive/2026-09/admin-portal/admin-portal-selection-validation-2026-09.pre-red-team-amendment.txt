@@ -1,0 +1,7 @@
+ADMIN-PORTAL RESEARCH/DECISION VALIDATION: PASS
+github_candidate_universe=218; final_directly_inspected=15; negative_candidate=rejected
+owner_public_profile=AbleVarghese; public_linkedin_url=resolved; linkedin_content=blocked
+active_licenses=3 MIT; AGPL negative licence checks=2
+active_matrix=weights/AHP/output verified; leader=control-first spike; status=FRAGILE
+architecture_contract=private-schema/raw-PATCH/linearity/outbox/optimistic-lock checks present
+local_links=resolved; authored_trailing_whitespace=none

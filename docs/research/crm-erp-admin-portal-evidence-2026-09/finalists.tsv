@@ -1,0 +1,16 @@
+family	candidate	reason_for_finalist	admission_role
+internal-admin	appsmithorg/appsmith	Large, active Apache-2.0 internal-tool/admin-panel candidate from public GitHub metadata.	possible self-hosted admin foundation
+internal-admin	ToolJet/ToolJet	Large internal-tool platform; public metadata reports AGPL-3.0, so licence gate is expected to be decisive.	comparison/reference only unless approved isolated service
+internal-admin	refinedev/refine	MIT React framework for custom admin panels; may fit a TypeScript/React site without adopting a separate data platform.	possible framework candidate
+internal-admin	nocobase/nocobase	Popular low-code business-app platform; exact source licence and operating model need direct inspection.	possible self-hosted admin foundation
+internal-admin	baserow/baserow	Self-hostable database/app platform candidate; exact source licence and operational scope need direct inspection.	possible data/admin foundation
+internal-admin	Budibase/budibase	Popular low-code internal-tool platform; exact source licence and operating model need direct inspection.	possible self-hosted admin foundation
+internal-admin	cortezaproject/corteza	Apache-2.0 low-code CRM/enterprise platform with explicit business-application scope.	possible admin/CRM platform
+crm	twentyhq/twenty	Large modern CRM candidate; search metadata lacks conclusive SPDX result, so direct licence/operations evidence is required.	possible CRM candidate
+crm	espocrm/espocrm	Purpose-built CRM; public metadata reports AGPL-3.0, so licence gate is expected to be decisive.	comparison/reference only unless approved isolated service
+crm	krayin/laravel-crm	MIT CRM with customer/lead/sales scope; candidate for a lean conventional CRM path.	possible CRM candidate
+crm	SuiteCRM/SuiteCRM	Mature CRM reference candidate; public metadata reports AGPL-3.0, so licence gate is expected to be decisive.	comparison/reference only unless approved isolated service
+crm-erp	Dolibarr/dolibarr	Integrated CRM/ERP reference with public GPL-3.0 metadata; tests the cost of choosing an all-in-one business suite.	comparison/reference only unless approved isolated service
+erp	frappe/erpnext	Existing owner fork points here; public GPL-3.0 metadata means it is a reference/isolated-service candidate, not default adoption.	owner-reuse/reference candidate
+erp	odoo/odoo	Large ERP reference candidate; tests whether the full-ERP category is structurally disproportionate.	comparison/reference only pending direct licence check
+client-finance	invoiceninja/invoiceninja	Client/invoice/admin reference; tests whether billing/client operations merit a separate system from CRM.	comparison/reference only pending direct licence check

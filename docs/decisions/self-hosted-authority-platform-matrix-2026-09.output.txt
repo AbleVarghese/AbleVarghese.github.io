@@ -1,0 +1,80 @@
+PROBLEM: Which self-hosted topology should replace managed application, database, authentication, analytics, and deployment dependencies for the current static professional site and a later protected operations surface, while preserving sovereignty, a private canonical data core, and a small enough operational burden for the owner-operated Mac mini?
+
+== AHP-derived weights (geometric mean) ==
+  sovereignty_and_egress   25.0
+  private_core_control     25.0
+  operational_burden       20.0
+  scope_and_time_to_value   15.0
+  maintenance_evidence     10.0
+  reversibility             5.0
+  lambda_max=6.000  CI=0.000  CR=0.000  -> consistent (trustworthy)
+  divergence vs stated weights (>8 pts flagged):
+    sovereignty_and_egress stated  25.0  derived  25.0  d= -0.0
+    private_core_control stated  25.0  derived  25.0  d= -0.0
+    operational_burden   stated  20.0  derived  20.0  d= +0.0
+    scope_and_time_to_value stated  15.0  derived  15.0  d= +0.0
+    maintenance_evidence stated  10.0  derived  10.0  d= +0.0
+    reversibility        stated   5.0  derived   5.0  d= +0.0
+  (stated weights drive the matrix below)
+
+== Weighted matrix (cost criteria shown raw(adjusted)) ==
+criterion                w%  0 — Keep GitHub   A — Self-host th  L — Stage direct  S — Run the full  C — Deploy the s  K — Run Keycloak  O — Run Ory Krat
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+sovereignty_and_egress   25                 1                10                10                10                10                10                10
+private_core_control     25                 3                 3                 9                 7                 9                 8                 8
+operational_burden [fi   20                10                10                 8                 4                 6                 3                 2
+scope_and_time_to_valu   15                 7                10                10                 5                 7                 3                 2
+maintenance_evidence     10                 8                 9                 8                 9                 9                 9                 9
+reversibility [fit]       5                10                10                 9                 5                 7                 4                 4
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+WEIGHTED TOTAL                           5.35              8.15              9.10              6.95              8.25              6.65              6.30
+QUALITY axis                             3.80              7.53              9.40              7.87              8.93              7.80              7.60
+FIT axis                                10.00             10.00              8.20              4.20              6.20              3.20              2.40
+NOTE: Quality-axis leader (L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work) != Fit-axis leader (0 — Keep GitHub Pages static status quo) — surface this split; do not average it away silently.
+
+Leader: L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work (9.10)  Runner-up: C — Deploy the same lean stack through Coolify after its health and backup checks pass (8.25)  gap=0.85
+
+== Podium & dual verdict ==
+  1st  L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work 9.10
+  2nd  C — Deploy the same lean stack through Coolify after its health and backup checks pass 8.25
+  3rd  A — Self-host the current static site behind Caddy 8.15
+  Merit champion (Quality axis, user-agnostic): L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work (9.40)
+  Overall winner (context + Fit factored, Quality 75 / Fit 25): L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work (9.10)  — same option: merit and fit agree
+
+== Dominance check ==
+  '0 — Keep GitHub Pages static status quo' is DOMINATED by 'A — Self-host the current static site behind Caddy' — cannot win under any weighting; eliminate.
+  'S — Run the full self-hosted Supabase platform' is DOMINATED by 'C — Deploy the same lean stack through Coolify after its health and backup checks pass' — cannot win under any weighting; eliminate.
+  'K — Run Keycloak plus a separate application stack' is DOMINATED by 'C — Deploy the same lean stack through Coolify after its health and backup checks pass' — cannot win under any weighting; eliminate.
+  'O — Run Ory Kratos/Hydra plus a separate application stack' is DOMINATED by 'C — Deploy the same lean stack through Coolify after its health and backup checks pass' — cannot win under any weighting; eliminate.
+
+== Sensitivity 1: one-at-a-time (+/-15% per weight) ==
+  stable — no perturbation changes the leader.
+
+== Sensitivity 2: flip-points (smallest weight change that dethrones the leader) ==
+  sovereignty_and_egress flips at > +200% / > -99%
+  private_core_control   flips at > +200% / -64%
+  operational_burden     flips at > +200% / > -99%
+  scope_and_time_to_value flips at > +200% / > -99%
+  maintenance_evidence   flips at > +200% / > -99%
+  reversibility          flips at > +200% / > -99%
+
+== Sensitivity 3: Monte Carlo robustness (10000 worlds; weights +/-30%, scores +/-uncertainty; seed=20260923) ==
+  L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work wins  93.7% of worlds
+  C — Deploy the same lean stack through Coolify after its health and backup checks pass wins   3.9% of worlds
+  A — Self-host the current static site behind Caddy wins   2.4% of worlds
+  0 — Keep GitHub Pages static status quo wins   0.0% of worlds
+  S — Run the full self-hosted Supabase platform wins   0.0% of worlds
+  K — Run Keycloak plus a separate application stack wins   0.0% of worlds
+  O — Run Ory Kratos/Hydra plus a separate application stack wins   0.0% of worlds
+  P(L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work beats C — Deploy the same lean stack through Coolify after its health and backup checks pass) = 95.8%
+  verdict: ROBUST (top win-rate 93.7%)
+
+== Minimax-regret cross-check (Savage-style, per-criterion weighted regret) ==
+  L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work max regret 0.400 (on 'operational_burden')
+  C — Deploy the same lean stack through Coolify after its health and backup checks pass max regret 0.800 (on 'operational_burden')
+  S — Run the full self-hosted Supabase platform max regret 1.200 (on 'operational_burden')
+  K — Run Keycloak plus a separate application stack max regret 1.400 (on 'operational_burden')
+  A — Self-host the current static site behind Caddy max regret 1.500 (on 'private_core_control')
+  O — Run Ory Kratos/Hydra plus a separate application stack max regret 1.600 (on 'operational_burden')
+  0 — Keep GitHub Pages static status quo max regret 2.250 (on 'sovereignty_and_egress')
+  agrees with the total-score leader (L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work).

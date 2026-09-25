@@ -1,0 +1,147 @@
+{
+  "problem": "Which foundation best provides a lean, reliable internal admin portal for the proposed professional/career, B2B agency, expert-session, and evidence workflows without replacing the canonical data model or adopting an encumbered CRM/ERP?",
+  "weights": {
+    "licence_and_data_control": 22,
+    "workflow_fit": 20,
+    "operating_lightness_and_reliability": 18,
+    "time_to_validated_workflow": 15,
+    "canonical_data_integration": 12,
+    "extensibility": 8,
+    "owner_stack_alignment": 5
+  },
+  "options": {
+    "0 — Native Supabase admin": {
+      "licence_and_data_control": 10,
+      "workflow_fit": 10,
+      "operating_lightness_and_reliability": 9,
+      "time_to_validated_workflow": 4,
+      "canonical_data_integration": 10,
+      "extensibility": 9,
+      "owner_stack_alignment": 9
+    },
+    "A — Refine over canonical database": {
+      "licence_and_data_control": 10,
+      "workflow_fit": 9,
+      "operating_lightness_and_reliability": 8,
+      "time_to_validated_workflow": 8,
+      "canonical_data_integration": 10,
+      "extensibility": 9,
+      "owner_stack_alignment": 8
+    },
+    "B — Baserow OSE as admin foundation": {
+      "licence_and_data_control": 8,
+      "workflow_fit": 7,
+      "operating_lightness_and_reliability": 7,
+      "time_to_validated_workflow": 8,
+      "canonical_data_integration": 5,
+      "extensibility": 7,
+      "owner_stack_alignment": 7
+    },
+    "C — Appsmith over canonical data": {
+      "licence_and_data_control": 10,
+      "workflow_fit": 8,
+      "operating_lightness_and_reliability": 5,
+      "time_to_validated_workflow": 8,
+      "canonical_data_integration": 9,
+      "extensibility": 8,
+      "owner_stack_alignment": 8
+    },
+    "D — Krayin standalone CRM": {
+      "licence_and_data_control": 10,
+      "workflow_fit": 6,
+      "operating_lightness_and_reliability": 6,
+      "time_to_validated_workflow": 7,
+      "canonical_data_integration": 4,
+      "extensibility": 6,
+      "owner_stack_alignment": 5
+    },
+    "E — Corteza low-code CRM/workflow": {
+      "licence_and_data_control": 10,
+      "workflow_fit": 8,
+      "operating_lightness_and_reliability": 5,
+      "time_to_validated_workflow": 5,
+      "canonical_data_integration": 5,
+      "extensibility": 9,
+      "owner_stack_alignment": 6
+    },
+    "H — Native data first, Refine after spike": {
+      "licence_and_data_control": 10,
+      "workflow_fit": 10,
+      "operating_lightness_and_reliability": 8,
+      "time_to_validated_workflow": 7,
+      "canonical_data_integration": 10,
+      "extensibility": 10,
+      "owner_stack_alignment": 8
+    }
+  },
+  "fit_criteria": ["owner_stack_alignment"],
+  "uncertainty": {
+    "default": 1.25,
+    "0 — Native Supabase admin": {
+      "time_to_validated_workflow": 2.0,
+      "owner_stack_alignment": 1.5
+    },
+    "A — Refine over canonical database": {
+      "workflow_fit": 1.5,
+      "owner_stack_alignment": 2.5
+    },
+    "B — Baserow OSE as admin foundation": {
+      "canonical_data_integration": 2.5,
+      "workflow_fit": 1.5
+    },
+    "C — Appsmith over canonical data": {
+      "operating_lightness_and_reliability": 2.0,
+      "workflow_fit": 1.5
+    },
+    "D — Krayin standalone CRM": {
+      "canonical_data_integration": 2.0,
+      "owner_stack_alignment": 2.0
+    },
+    "E — Corteza low-code CRM/workflow": {
+      "operating_lightness_and_reliability": 2.0,
+      "workflow_fit": 1.5
+    },
+    "H — Native data first, Refine after spike": {
+      "operating_lightness_and_reliability": 1.5,
+      "time_to_validated_workflow": 2.0,
+      "owner_stack_alignment": 2.5
+    }
+  },
+  "perturbation": 0.15,
+  "simulations": 10000,
+  "seed": 20260923,
+  "ahp_pairwise": {
+    "criteria": [
+      "licence_and_data_control",
+      "workflow_fit",
+      "operating_lightness_and_reliability",
+      "time_to_validated_workflow",
+      "canonical_data_integration",
+      "extensibility",
+      "owner_stack_alignment"
+    ],
+    "comparisons": {
+      "licence_and_data_control vs workflow_fit": 1.1,
+      "licence_and_data_control vs operating_lightness_and_reliability": 1.2222222222,
+      "licence_and_data_control vs time_to_validated_workflow": 1.4666666667,
+      "licence_and_data_control vs canonical_data_integration": 1.8333333333,
+      "licence_and_data_control vs extensibility": 2.75,
+      "licence_and_data_control vs owner_stack_alignment": 4.4,
+      "workflow_fit vs operating_lightness_and_reliability": 1.1111111111,
+      "workflow_fit vs time_to_validated_workflow": 1.3333333333,
+      "workflow_fit vs canonical_data_integration": 1.6666666667,
+      "workflow_fit vs extensibility": 2.5,
+      "workflow_fit vs owner_stack_alignment": 4,
+      "operating_lightness_and_reliability vs time_to_validated_workflow": 1.2,
+      "operating_lightness_and_reliability vs canonical_data_integration": 1.5,
+      "operating_lightness_and_reliability vs extensibility": 2.25,
+      "operating_lightness_and_reliability vs owner_stack_alignment": 3.6,
+      "time_to_validated_workflow vs canonical_data_integration": 1.25,
+      "time_to_validated_workflow vs extensibility": 1.875,
+      "time_to_validated_workflow vs owner_stack_alignment": 3,
+      "canonical_data_integration vs extensibility": 1.5,
+      "canonical_data_integration vs owner_stack_alignment": 2.4,
+      "extensibility vs owner_stack_alignment": 1.6
+    }
+  }
+}

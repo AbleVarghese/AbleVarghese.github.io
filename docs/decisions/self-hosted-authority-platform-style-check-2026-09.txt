@@ -1,0 +1,16 @@
+
+== docs/research/self-hosted-authority-platform-research-2026-09.md ==
+  self-hosted-authority-platform-research-2026-09.md words=1369  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS
+
+== docs/decisions/ADR-004-self-hosted-authority-platform-2026-09.md ==
+  ADR-004-self-hosted-authority-platform-2026-09.md words=1688  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS
+
+== docs/architecture/FOUNDATION-ARCHITECTURE-PLAN-2026-09.md ==
+  FOUNDATION-ARCHITECTURE-PLAN-2026-09.md words=2598  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS
+
+== docs/decisions/ADR-003-identity-and-integration-foundation-2026-09.md ==
+  ADR-003-identity-and-integration-foundation-2026-09.md words=2084  neg=0   em/100w=0   tri=0   puff=0   cadence=0   TELL-SCORE=0
+result=PASS

@@ -1,0 +1,642 @@
+[
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "repo",
+    "api_path": "repos/better-auth/better-auth",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6657,
+    "sha256": "4b378b7aa2c2704196e494c39714b5443144e60d155036f1e6a5f28867cfed06",
+    "retrieved_at_utc": "2026-09-23T19:18:09Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "license",
+    "api_path": "repos/better-auth/better-auth/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2462,
+    "sha256": "68e0ec8f5116d2f2810db42a961eba779eb5e967ad028226006a1bf355265b3b",
+    "retrieved_at_utc": "2026-09-23T19:18:09Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "readme",
+    "api_path": "repos/better-auth/better-auth/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 4081,
+    "sha256": "48ae7a12608ea715ed315921084d058dc9d2af8168ad1e97f3dfe7afd66aa6c1",
+    "retrieved_at_utc": "2026-09-23T19:18:10Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "latest-release",
+    "api_path": "repos/better-auth/better-auth/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 4943,
+    "sha256": "9a1cd1e00ffc4a386cb244afc447cd3ccfea69e6a9a04355b015f03367e6b66a",
+    "retrieved_at_utc": "2026-09-23T19:18:10Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "root-contents",
+    "api_path": "repos/better-auth/better-auth/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 29014,
+    "sha256": "826a4ecfefa99a9248fba8f0a101c0382e1778374cb0f1092d41bda68f6b6751",
+    "retrieved_at_utc": "2026-09-23T19:18:10Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "repo",
+    "api_path": "repos/supabase/supabase",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6636,
+    "sha256": "0c4c8b3947e5bfecf16834bd97bd86b264fe7dd6cba40bd2220aa9d350bf14c3",
+    "retrieved_at_utc": "2026-09-23T19:18:11Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "license",
+    "api_path": "repos/supabase/supabase/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 16544,
+    "sha256": "d13231e872561887a34c698cc935a902310c36e781ec4b4271646de58fa29363",
+    "retrieved_at_utc": "2026-09-23T19:18:11Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "readme",
+    "api_path": "repos/supabase/supabase/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 23966,
+    "sha256": "294969855e0136f0b059b07cbbb16718c8a257bb513a55d43e7464b20ba2e4f5",
+    "retrieved_at_utc": "2026-09-23T19:18:12Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "latest-release",
+    "api_path": "repos/supabase/supabase/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 7995,
+    "sha256": "21760392dd305216d8976b136f1b3f230506840b8a2952aa4a1e4ba6e2af8dde",
+    "retrieved_at_utc": "2026-09-23T19:18:12Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "root-contents",
+    "api_path": "repos/supabase/supabase/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 25891,
+    "sha256": "7e62d80248924584541b98f13aeb38c22d391f49de86c27841ed81f797c71b64",
+    "retrieved_at_utc": "2026-09-23T19:18:13Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "repo",
+    "api_path": "repos/caddyserver/caddy",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6578,
+    "sha256": "6bfa412be5f4968256627b844b9af11cfb3e65fccd5a75003ea4ef6afa985887",
+    "retrieved_at_utc": "2026-09-23T19:18:13Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "license",
+    "api_path": "repos/caddyserver/caddy/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 16570,
+    "sha256": "42744735463ec0b8c318fe6684930a6c0d5f20a8efcd76f6448c4bcc5e0a0db3",
+    "retrieved_at_utc": "2026-09-23T19:18:14Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "readme",
+    "api_path": "repos/caddyserver/caddy/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 18220,
+    "sha256": "6924924dfe0bfbd8aec377a39e9b96307099e74c5d6366a9200c039a67a8a5b1",
+    "retrieved_at_utc": "2026-09-23T19:18:14Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "latest-release",
+    "api_path": "repos/caddyserver/caddy/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 222351,
+    "sha256": "e71536d12297d3c350782c23a776bd25f57d708886256926bc9841acfce7852b",
+    "retrieved_at_utc": "2026-09-23T19:18:15Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "root-contents",
+    "api_path": "repos/caddyserver/caddy/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 43548,
+    "sha256": "a90a65e624014081e42602911d24b345560aa56513a01faac105cc8d543c902d",
+    "retrieved_at_utc": "2026-09-23T19:18:15Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "repo",
+    "api_path": "repos/coollabsio/coolify",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6780,
+    "sha256": "af93efd44db4d4db1978f1a91d20c7e1d2271ebd66a494d7909817ebed3542a2",
+    "retrieved_at_utc": "2026-09-23T19:18:15Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "license",
+    "api_path": "repos/coollabsio/coolify/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 16551,
+    "sha256": "64652eea67775629fc466a2a8cdb802473038b377bd61e3d2bff9c9f598c92a2",
+    "retrieved_at_utc": "2026-09-23T19:18:16Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "readme",
+    "api_path": "repos/coollabsio/coolify/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 21213,
+    "sha256": "8a19e00b0c2b6691a755dfffcff3babe3817e18164d339f5eaf467c04321d200",
+    "retrieved_at_utc": "2026-09-23T19:18:16Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "latest-release",
+    "api_path": "repos/coollabsio/coolify/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2656,
+    "sha256": "7db13ddc1d8c92b55cfe1315bc73b7b49e8d49eaa727191bf469a426a2a32c69",
+    "retrieved_at_utc": "2026-09-23T19:18:17Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "root-contents",
+    "api_path": "repos/coollabsio/coolify/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 54252,
+    "sha256": "c656260d6996c4d14297ecd15b30c0e3d75fd7769626b603a08a1038dd6940c8",
+    "retrieved_at_utc": "2026-09-23T19:18:17Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "repo",
+    "api_path": "repos/vercel/next.js",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6260,
+    "sha256": "ce374e450d1fc3c2ad0f52d040f5ac186a49904ae0f4f5c09697c685e055ea88",
+    "retrieved_at_utc": "2026-09-23T19:18:18Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "license",
+    "api_path": "repos/vercel/next.js/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2379,
+    "sha256": "46438d56847d5ea72411be03d9f2f486496ce3f09870cd530a0c11a298539369",
+    "retrieved_at_utc": "2026-09-23T19:18:18Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "readme",
+    "api_path": "repos/vercel/next.js/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 5178,
+    "sha256": "bf608824d04ed7e49c2cfb78052191d02e6c98ebb0bfce8a35d5818cd51640e9",
+    "retrieved_at_utc": "2026-09-23T19:18:19Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "latest-release",
+    "api_path": "repos/vercel/next.js/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2081,
+    "sha256": "5960043dc1707ee5952f9dcaead0a0b49eecb59b26bb61e444631261e4b6ccd0",
+    "retrieved_at_utc": "2026-09-23T19:18:19Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "root-contents",
+    "api_path": "repos/vercel/next.js/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 48697,
+    "sha256": "2d19914bc54935ba15a23f107f82fba1948a79db3a5447e9688eb20f47e91392",
+    "retrieved_at_utc": "2026-09-23T19:18:19Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "repo",
+    "api_path": "repos/drizzle-team/drizzle-orm",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6745,
+    "sha256": "0199db44c67a5618e85415ec17f43a9ba210d71c99c8a77f5a6477bb1a568871",
+    "retrieved_at_utc": "2026-09-23T19:18:20Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "license",
+    "api_path": "repos/drizzle-team/drizzle-orm/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 16609,
+    "sha256": "62b3103cea855b06348c7bd249a82b2c4af3ce105fceeb3f38e0c1e9b15e4a24",
+    "retrieved_at_utc": "2026-09-23T19:18:20Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "readme",
+    "api_path": "repos/drizzle-team/drizzle-orm/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 5296,
+    "sha256": "243c5a0c893c0c37215ca0483ff5604a13a0c2435bec842a7d9eaba4b6527bf4",
+    "retrieved_at_utc": "2026-09-23T19:18:20Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "latest-release",
+    "api_path": "repos/drizzle-team/drizzle-orm/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 4000,
+    "sha256": "fad4261bddfd91e6ad66cb8890b5be390923c6b4ef2c02d496c5accb872baccd",
+    "retrieved_at_utc": "2026-09-23T19:18:21Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "root-contents",
+    "api_path": "repos/drizzle-team/drizzle-orm/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 24320,
+    "sha256": "537b10268bf1f3b75c82440303860a57f87eb37c12a843f551c7a28ec9424d18",
+    "retrieved_at_utc": "2026-09-23T19:18:21Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "repo",
+    "api_path": "repos/postgres/postgres",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6420,
+    "sha256": "6516ae3eff2cccd0a86f195b66b6eaaad90f2c1258a514ad3ca46237a2f0664a",
+    "retrieved_at_utc": "2026-09-23T19:18:22Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "license",
+    "api_path": "repos/postgres/postgres/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2530,
+    "sha256": "4fbdb251407ca7f5379e43bc8c0bac3f78c7a1d8f09ad7b4c83227458dc47da4",
+    "retrieved_at_utc": "2026-09-23T19:18:22Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "readme",
+    "api_path": "repos/postgres/postgres/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2134,
+    "sha256": "363278b4cf3c7550c899354ae909ede25fa5eb1f5b4b5bdbca7250fea6cf6dbb",
+    "retrieved_at_utc": "2026-09-23T19:18:23Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "latest-release",
+    "api_path": "repos/postgres/postgres/releases/latest",
+    "status": "unavailable",
+    "return_code": 1,
+    "bytes": 0,
+    "sha256": "-",
+    "retrieved_at_utc": "2026-09-23T19:18:23Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "root-contents",
+    "api_path": "repos/postgres/postgres/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 15356,
+    "sha256": "25e3d26b00dcdf97d32aa4c567838c22c0f5e5aaf03623da7e4c75e366196a04",
+    "retrieved_at_utc": "2026-09-23T19:18:23Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "repo",
+    "api_path": "repos/umami-software/umami",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6806,
+    "sha256": "b3543eae141270ec737f049d422ca53f6bb08d69636524ba826cf71b9f22d189",
+    "retrieved_at_utc": "2026-09-23T19:18:24Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "license",
+    "api_path": "repos/umami-software/umami/license",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2422,
+    "sha256": "6eba85a432a400ef4fb42c4393b279a8046508d47d6c0a3af1d11365ae778e88",
+    "retrieved_at_utc": "2026-09-23T19:18:24Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "readme",
+    "api_path": "repos/umami-software/umami/readme",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 7984,
+    "sha256": "c4a9f788f8c07fa89c64136ab9f0923040875b881a4ebbc80dd0d15b54e42755",
+    "retrieved_at_utc": "2026-09-23T19:18:25Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "latest-release",
+    "api_path": "repos/umami-software/umami/releases/latest",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 6654,
+    "sha256": "3fcc08ee86385a9e5bd05035354c6a583bf7786851dda0dcdde05a176698b837",
+    "retrieved_at_utc": "2026-09-23T19:18:25Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "root-contents",
+    "api_path": "repos/umami-software/umami/contents",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 31614,
+    "sha256": "61958ecde8d1c642f9d5f9f6787e19a260330ec47e47dcb42ee13bd5c76a6717",
+    "retrieved_at_utc": "2026-09-23T19:18:25Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "community",
+    "api_path": "repos/better-auth/better-auth/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1242,
+    "sha256": "246050f82c7b15ac039e2d554aff9de9944798bd5ee592b05513c5d7a6018669",
+    "retrieved_at_utc": "2026-09-23T19:20:45Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "workflows",
+    "api_path": "repos/better-auth/better-auth/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 15553,
+    "sha256": "954a0942f667dde0ff048c6bc6aa68f582b64db700e41ddc8fd5c612fd6c7d64",
+    "retrieved_at_utc": "2026-09-23T19:20:46Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "community",
+    "api_path": "repos/supabase/supabase/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1516,
+    "sha256": "fa08a217199703a0d2cdc7467f88ca14d7e97347da618635a5a98069a30193b3",
+    "retrieved_at_utc": "2026-09-23T19:20:47Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "workflows",
+    "api_path": "repos/supabase/supabase/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 15395,
+    "sha256": "a49a5edf978f5bb876ee8ba31296ba6a3f2c617a3ff44c2f453eb161ba6d28aa",
+    "retrieved_at_utc": "2026-09-23T19:20:47Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "community",
+    "api_path": "repos/caddyserver/caddy/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1108,
+    "sha256": "e608fe59a3d0e9cc299460cf8dd7a5662de03bd19dd9be4ae725e3b95b4087f1",
+    "retrieved_at_utc": "2026-09-23T19:20:47Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "workflows",
+    "api_path": "repos/caddyserver/caddy/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 8626,
+    "sha256": "f2f6d759159e0edc110b5d7b2c42c19bfc52b94cb1013ef417c69a160ab3b791",
+    "retrieved_at_utc": "2026-09-23T19:20:48Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "community",
+    "api_path": "repos/coollabsio/coolify/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1595,
+    "sha256": "5d526715f53dca89f33a33fa4b4a4485cce3b9a2c1af33b06b526995cb8b70fc",
+    "retrieved_at_utc": "2026-09-23T19:20:49Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "workflows",
+    "api_path": "repos/coollabsio/coolify/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 12247,
+    "sha256": "b49ba3eda928002c9eed7e3fafe79fedcbabef04cadc30301f0cc9576da216bb",
+    "retrieved_at_utc": "2026-09-23T19:20:49Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "community",
+    "api_path": "repos/vercel/next.js/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1321,
+    "sha256": "9b02771adcbdbbc28530f34daa016943e2058b60dd619794becc72ec9b8c931c",
+    "retrieved_at_utc": "2026-09-23T19:20:50Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "workflows",
+    "api_path": "repos/vercel/next.js/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 15274,
+    "sha256": "a637ba65d8be3fc6d47808d0b3ca6838f35b4e3a4e19f32a31955c5c1c60a9dd",
+    "retrieved_at_utc": "2026-09-23T19:20:51Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "community",
+    "api_path": "repos/drizzle-team/drizzle-orm/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1262,
+    "sha256": "bcf2d6a5e29d6e1a98df55e932ac6ed9197f8e3244c14623152712cdda5ae160",
+    "retrieved_at_utc": "2026-09-23T19:20:51Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "workflows",
+    "api_path": "repos/drizzle-team/drizzle-orm/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 5439,
+    "sha256": "8b1f5ad3398c6f216c992132edce2e3bba492173f3f5fad9803897cd4cbf317f",
+    "retrieved_at_utc": "2026-09-23T19:20:52Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "community",
+    "api_path": "repos/postgres/postgres/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1372,
+    "sha256": "3d31c4d82ace0256d1e8dea1eaebfe0db98244e61b393340f36c92249f6bf3a2",
+    "retrieved_at_utc": "2026-09-23T19:20:53Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "workflows",
+    "api_path": "repos/postgres/postgres/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1127,
+    "sha256": "78b9ae2a64afd891521b2160746ab110dc3da1b98258ad00f2652a7b318d99da",
+    "retrieved_at_utc": "2026-09-23T19:20:53Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "community",
+    "api_path": "repos/umami-software/umami/community/profile",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 981,
+    "sha256": "ec5cbfae3abb33922e779288735ac91262023fae599a2a56a66c3ef49b6d2b81",
+    "retrieved_at_utc": "2026-09-23T19:20:54Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "workflows",
+    "api_path": "repos/umami-software/umami/actions/workflows",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 3652,
+    "sha256": "123353682d57707032d148fa199566852959644b94c5ed8a1ad76205e5d0a4a7",
+    "retrieved_at_utc": "2026-09-23T19:20:54Z"
+  },
+  {
+    "repo": "better-auth/better-auth",
+    "endpoint": "security-policy",
+    "api_path": "repos/better-auth/better-auth/contents/SECURITY.md",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 2277,
+    "sha256": "178fc1fed676f3ede1e52fbe844c88c55f0fc6ed7fbd40530ce2e670c5cc4dee",
+    "retrieved_at_utc": "2026-09-23T19:21:24Z"
+  },
+  {
+    "repo": "supabase/supabase",
+    "endpoint": "security-policy",
+    "api_path": "repos/supabase/supabase/contents/SECURITY.md",
+    "status": "unavailable",
+    "return_code": 1,
+    "bytes": 0,
+    "sha256": "-",
+    "retrieved_at_utc": "2026-09-23T19:21:24Z"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "endpoint": "security-policy",
+    "api_path": "repos/caddyserver/caddy/contents/SECURITY.md",
+    "status": "unavailable",
+    "return_code": 1,
+    "bytes": 0,
+    "sha256": "-",
+    "retrieved_at_utc": "2026-09-23T19:21:24Z"
+  },
+  {
+    "repo": "coollabsio/coolify",
+    "endpoint": "security-policy",
+    "api_path": "repos/coollabsio/coolify/contents/SECURITY.md",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1911,
+    "sha256": "b6e538e52c1162593e400fe994c62391ab98b43be31480e3e0e92d303279c50d",
+    "retrieved_at_utc": "2026-09-23T19:21:25Z"
+  },
+  {
+    "repo": "vercel/next.js",
+    "endpoint": "security-policy",
+    "api_path": "repos/vercel/next.js/contents/SECURITY.md",
+    "status": "unavailable",
+    "return_code": 1,
+    "bytes": 0,
+    "sha256": "-",
+    "retrieved_at_utc": "2026-09-23T19:21:25Z"
+  },
+  {
+    "repo": "drizzle-team/drizzle-orm",
+    "endpoint": "security-policy",
+    "api_path": "repos/drizzle-team/drizzle-orm/contents/SECURITY.md",
+    "status": "available",
+    "return_code": 0,
+    "bytes": 1051,
+    "sha256": "80f139c5b0cad6be44af3b114239ad98ba105db943c2354593524b4344c43dd3",
+    "retrieved_at_utc": "2026-09-23T19:21:25Z"
+  },
+  {
+    "repo": "postgres/postgres",
+    "endpoint": "security-policy",
+    "api_path": "repos/postgres/postgres/contents/SECURITY.md",
+    "status": "unavailable",
+    "return_code": 1,
+    "bytes": 0,
+    "sha256": "-",
+    "retrieved_at_utc": "2026-09-23T19:21:26Z"
+  },
+  {
+    "repo": "umami-software/umami",
+    "endpoint": "security-policy",
+    "api_path": "repos/umami-software/umami/contents/SECURITY.md",
+    "status": "unavailable",
+    "return_code": 1,
+    "bytes": 0,
+    "sha256": "-",
+    "retrieved_at_utc": "2026-09-23T19:21:26Z"
+  }
+]

@@ -1,0 +1,7 @@
+FOUNDATION ARCHITECTURE VALIDATION: PASS
+candidate_screen=8 direct GitHub candidates; license/source cross-check=8/8
+retrieval_contract=64 bounded endpoint receipts; invalid candidate=absent
+linkedin=robots-blocked before profile fetch; profile_fields_collected=0
+matrix=byte-identical recomputation; AHP_CR=0.000; staged_result=FRAGILE 62.0%
+architecture=private-core/actor-link/replay/outbox/recovery controls present
+local_links=resolved; authored_whitespace=clean; index=stable and excludes bytecode

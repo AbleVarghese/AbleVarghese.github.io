@@ -1,0 +1,123 @@
+{
+  "problem": "After licence and runtime screening, how should the admin foundation be staged so evidence integrity, guarded business transitions, concurrency safety, and one canonical data model are established before selecting a React/Node administration framework?",
+  "weights": {
+    "licence_and_data_control": 23,
+    "database_invariant_enforcement": 22,
+    "workflow_fit": 18,
+    "operating_lightness_and_reliability": 15,
+    "time_to_validated_workflow": 12,
+    "canonical_data_integration": 7,
+    "owner_stack_alignment": 3
+  },
+  "options": {
+    "0 — Native database and custom admin": {
+      "licence_and_data_control": 10,
+      "database_invariant_enforcement": 9,
+      "workflow_fit": 10,
+      "operating_lightness_and_reliability": 9,
+      "time_to_validated_workflow": 4,
+      "canonical_data_integration": 10,
+      "owner_stack_alignment": 8
+    },
+    "A — Refine with guarded data provider": {
+      "licence_and_data_control": 10,
+      "database_invariant_enforcement": 8,
+      "workflow_fit": 9,
+      "operating_lightness_and_reliability": 8,
+      "time_to_validated_workflow": 8,
+      "canonical_data_integration": 10,
+      "owner_stack_alignment": 8
+    },
+    "R — React-admin with guarded data provider": {
+      "licence_and_data_control": 10,
+      "database_invariant_enforcement": 8,
+      "workflow_fit": 9,
+      "operating_lightness_and_reliability": 8,
+      "time_to_validated_workflow": 8,
+      "canonical_data_integration": 10,
+      "owner_stack_alignment": 8
+    },
+    "J — AdminJS with guarded actions": {
+      "licence_and_data_control": 10,
+      "database_invariant_enforcement": 8,
+      "workflow_fit": 8,
+      "operating_lightness_and_reliability": 8,
+      "time_to_validated_workflow": 8,
+      "canonical_data_integration": 8,
+      "owner_stack_alignment": 7
+    },
+    "H — Control-first, then two-framework spike": {
+      "licence_and_data_control": 10,
+      "database_invariant_enforcement": 10,
+      "workflow_fit": 10,
+      "operating_lightness_and_reliability": 8,
+      "time_to_validated_workflow": 7,
+      "canonical_data_integration": 10,
+      "owner_stack_alignment": 8
+    }
+  },
+  "fit_criteria": ["owner_stack_alignment"],
+  "uncertainty": {
+    "default": 1.25,
+    "0 — Native database and custom admin": {
+      "time_to_validated_workflow": 2.0,
+      "owner_stack_alignment": 1.5
+    },
+    "A — Refine with guarded data provider": {
+      "database_invariant_enforcement": 2.0,
+      "time_to_validated_workflow": 1.5,
+      "owner_stack_alignment": 2.0
+    },
+    "R — React-admin with guarded data provider": {
+      "database_invariant_enforcement": 2.0,
+      "time_to_validated_workflow": 1.5,
+      "owner_stack_alignment": 2.0
+    },
+    "J — AdminJS with guarded actions": {
+      "database_invariant_enforcement": 2.0,
+      "canonical_data_integration": 2.0
+    },
+    "H — Control-first, then two-framework spike": {
+      "time_to_validated_workflow": 2.0,
+      "database_invariant_enforcement": 1.5,
+      "owner_stack_alignment": 2.0
+    }
+  },
+  "perturbation": 0.15,
+  "simulations": 10000,
+  "seed": 20260923,
+  "ahp_pairwise": {
+    "criteria": [
+      "licence_and_data_control",
+      "database_invariant_enforcement",
+      "workflow_fit",
+      "operating_lightness_and_reliability",
+      "time_to_validated_workflow",
+      "canonical_data_integration",
+      "owner_stack_alignment"
+    ],
+    "comparisons": {
+      "licence_and_data_control vs database_invariant_enforcement": 1.0454545455,
+      "licence_and_data_control vs workflow_fit": 1.2777777778,
+      "licence_and_data_control vs operating_lightness_and_reliability": 1.5333333333,
+      "licence_and_data_control vs time_to_validated_workflow": 1.9166666667,
+      "licence_and_data_control vs canonical_data_integration": 3.2857142857,
+      "licence_and_data_control vs owner_stack_alignment": 7.6666666667,
+      "database_invariant_enforcement vs workflow_fit": 1.2222222222,
+      "database_invariant_enforcement vs operating_lightness_and_reliability": 1.4666666667,
+      "database_invariant_enforcement vs time_to_validated_workflow": 1.8333333333,
+      "database_invariant_enforcement vs canonical_data_integration": 3.1428571429,
+      "database_invariant_enforcement vs owner_stack_alignment": 7.3333333333,
+      "workflow_fit vs operating_lightness_and_reliability": 1.2,
+      "workflow_fit vs time_to_validated_workflow": 1.5,
+      "workflow_fit vs canonical_data_integration": 2.5714285714,
+      "workflow_fit vs owner_stack_alignment": 6,
+      "operating_lightness_and_reliability vs time_to_validated_workflow": 1.25,
+      "operating_lightness_and_reliability vs canonical_data_integration": 2.1428571429,
+      "operating_lightness_and_reliability vs owner_stack_alignment": 5,
+      "time_to_validated_workflow vs canonical_data_integration": 1.7142857143,
+      "time_to_validated_workflow vs owner_stack_alignment": 4,
+      "canonical_data_integration vs owner_stack_alignment": 2.3333333333
+    }
+  }
+}

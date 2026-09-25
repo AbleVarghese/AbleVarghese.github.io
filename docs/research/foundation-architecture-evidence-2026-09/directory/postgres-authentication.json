@@ -1,0 +1,46 @@
+[
+  {
+    "id": "profile_61UIfEPOIYDNkiWi3A6UIfEPHUQEwVsjvNIXXA5JwIU4",
+    "display_name": "Supabase",
+    "username": "supabase",
+    "description": "Supabase is the Postgres development platform.\nStart your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.",
+    "url": "https://stri.pe/sl/bAK5EBYN",
+    "profile_url": "https://stri.pe/sl/mkAtXp3E",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": false,
+      "title": null,
+      "description": null,
+      "slug": null,
+      "url": null
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision supabase",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  },
+  {
+    "id": "profile_61UE3TZubXBkuJb26A6UE3TZGsSQ6Fprbs4w1pKKmSq0",
+    "display_name": "Neon",
+    "username": "neon",
+    "description": "Serverless postgres database",
+    "url": "https://stri.pe/sl/GoaUOjOX",
+    "profile_url": "https://stri.pe/sl/laM244ZQ",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": true,
+      "title": "Neon",
+      "description": "Neon Serverless Postgres is a fully managed database built for developers and agents. It’s scalable, highly performant, and ready for AI.",
+      "slug": "neon-serverless-postgres",
+      "url": "https://stri.pe/sl/AfLnJtCE"
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision neon",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  }
+]

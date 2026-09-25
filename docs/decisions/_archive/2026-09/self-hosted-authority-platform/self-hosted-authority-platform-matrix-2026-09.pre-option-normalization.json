@@ -1,0 +1,127 @@
+{
+  "problem": "Which self-hosted topology should replace managed application, database, authentication, analytics, and deployment dependencies for the current static professional site and a later protected operations surface, while preserving sovereignty, a private canonical data core, and a small enough operational burden for the owner-operated Mac mini?",
+  "weights": {
+    "sovereignty_and_egress": 25,
+    "private_core_control": 25,
+    "operational_burden": 20,
+    "scope_and_time_to_value": 15,
+    "maintenance_evidence": 10,
+    "reversibility": 5
+  },
+  "options": {
+    "0 — Keep GitHub Pages static status quo": {
+      "sovereignty_and_egress": 1,
+      "private_core_control": 3,
+      "operational_burden": 10,
+      "scope_and_time_to_value": 7,
+      "maintenance_evidence": 8,
+      "reversibility": 10
+    },
+    "A — Self-host the current static site behind Caddy": {
+      "sovereignty_and_egress": 10,
+      "private_core_control": 3,
+      "operational_burden": 10,
+      "scope_and_time_to_value": 10,
+      "maintenance_evidence": 9,
+      "reversibility": 10
+    },
+    "L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work": {
+      "sovereignty_and_egress": 10,
+      "private_core_control": 9,
+      "operational_burden": 8,
+      "scope_and_time_to_value": 10,
+      "maintenance_evidence": 8,
+      "reversibility": 9
+    },
+    "S — Run the full self-hosted Supabase platform": {
+      "sovereignty_and_egress": 10,
+      "private_core_control": 7,
+      "operational_burden": 4,
+      "scope_and_time_to_value": 5,
+      "maintenance_evidence": 9,
+      "reversibility": 5
+    },
+    "C — Make Coolify the primary deployment and service platform": {
+      "sovereignty_and_egress": 10,
+      "private_core_control": 8,
+      "operational_burden": 5,
+      "scope_and_time_to_value": 6,
+      "maintenance_evidence": 9,
+      "reversibility": 7
+    },
+    "K — Run Keycloak plus a separate application stack": {
+      "sovereignty_and_egress": 10,
+      "private_core_control": 8,
+      "operational_burden": 3,
+      "scope_and_time_to_value": 3,
+      "maintenance_evidence": 9,
+      "reversibility": 4
+    },
+    "O — Run Ory Kratos/Hydra plus a separate application stack": {
+      "sovereignty_and_egress": 10,
+      "private_core_control": 8,
+      "operational_burden": 2,
+      "scope_and_time_to_value": 2,
+      "maintenance_evidence": 9,
+      "reversibility": 4
+    }
+  },
+  "fit_criteria": ["operational_burden", "reversibility"],
+  "uncertainty": {
+    "default": 0.75,
+    "A — Self-host the current static site behind Caddy": {
+      "private_core_control": 2.0
+    },
+    "L — Stage direct self-hosting: Caddy/static now; Next.js + Better Auth + PostgreSQL + Drizzle only for protected work": {
+      "private_core_control": 1.75,
+      "operational_burden": 2.0,
+      "maintenance_evidence": 1.25
+    },
+    "S — Run the full self-hosted Supabase platform": {
+      "private_core_control": 1.5,
+      "operational_burden": 1.5
+    },
+    "C — Make Coolify the primary deployment and service platform": {
+      "private_core_control": 1.5,
+      "operational_burden": 2.0
+    },
+    "K — Run Keycloak plus a separate application stack": {
+      "operational_burden": 1.5,
+      "scope_and_time_to_value": 1.25
+    },
+    "O — Run Ory Kratos/Hydra plus a separate application stack": {
+      "operational_burden": 1.5,
+      "scope_and_time_to_value": 1.5
+    }
+  },
+  "perturbation": 0.15,
+  "simulations": 10000,
+  "seed": 20260923,
+  "ahp_pairwise": {
+    "criteria": [
+      "sovereignty_and_egress",
+      "private_core_control",
+      "operational_burden",
+      "scope_and_time_to_value",
+      "maintenance_evidence",
+      "reversibility"
+    ],
+    "comparisons": {
+      "sovereignty_and_egress vs private_core_control": 1.0,
+      "sovereignty_and_egress vs operational_burden": 1.25,
+      "sovereignty_and_egress vs scope_and_time_to_value": 1.6666666667,
+      "sovereignty_and_egress vs maintenance_evidence": 2.5,
+      "sovereignty_and_egress vs reversibility": 5.0,
+      "private_core_control vs operational_burden": 1.25,
+      "private_core_control vs scope_and_time_to_value": 1.6666666667,
+      "private_core_control vs maintenance_evidence": 2.5,
+      "private_core_control vs reversibility": 5.0,
+      "operational_burden vs scope_and_time_to_value": 1.3333333333,
+      "operational_burden vs maintenance_evidence": 2.0,
+      "operational_burden vs reversibility": 4.0,
+      "scope_and_time_to_value vs maintenance_evidence": 1.5,
+      "scope_and_time_to_value vs reversibility": 3.0,
+      "maintenance_evidence vs reversibility": 2.0
+    }
+  }
+}

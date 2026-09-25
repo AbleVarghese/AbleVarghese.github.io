@@ -1,0 +1,112 @@
+[
+  {
+    "id": "profile_61UIwT13J62vB1GIFA6UIwT1RLSQaPK1Gyuf0dR3w156",
+    "display_name": "Clerk, Inc.",
+    "username": "clerkinc",
+    "description": "Clerk is a user management platform for developers. We provide the easiest way to add authentication and email/sms capabilities to an application.",
+    "url": "https://stri.pe/sl/e0SmuEle",
+    "profile_url": "https://stri.pe/sl/WZoQ4Juy",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": true,
+      "title": "Clerk",
+      "description": "Clerk is the all in one user management solution for all your applications. Subscription Billing, User Authentication, multi-tenancy and more.",
+      "slug": "clerk",
+      "url": "https://stri.pe/sl/ryyUDiIP"
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision clerkinc",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  },
+  {
+    "id": "profile_61UY7nsVqRxAUVJp8A6UY7nsBDSQaXHWh6kw4hIq8J9s",
+    "display_name": "WorkOS",
+    "username": "workos",
+    "description": "WorkOS is a modern API platform that empowers any developer to quickly build and ship complex enterprise features: User Management, Single Sign-On (SAML), Directory Sync (SCIM), and Admin Portal (enterprise onboarding).",
+    "url": "https://stri.pe/sl/FZpexZM8",
+    "profile_url": "https://stri.pe/sl/URQ8PKpK",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": false,
+      "title": null,
+      "description": null,
+      "slug": null,
+      "url": null
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision workos",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  },
+  {
+    "id": "profile_61UIfEPOIYDNkiWi3A6UIfEPHUQEwVsjvNIXXA5JwIU4",
+    "display_name": "Supabase",
+    "username": "supabase",
+    "description": "Supabase is the Postgres development platform.\nStart your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.",
+    "url": "https://stri.pe/sl/bAK5EBYN",
+    "profile_url": "https://stri.pe/sl/mkAtXp3E",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": false,
+      "title": null,
+      "description": null,
+      "slug": null,
+      "url": null
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision supabase",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  },
+  {
+    "id": "profile_61UY99dKxVvas1lTcA6UY99dTaSQ5R9I0DGdKgSyuH2u",
+    "display_name": "Auth0 by Okta",
+    "username": "auth0",
+    "description": null,
+    "url": null,
+    "profile_url": "https://stri.pe/sl/3vjz5reA",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": true,
+      "title": "Auth0",
+      "description": "Auth0 by Okta provides secure, easy-to-implement identity solutions for developers, ensuring seamless login and robust data protection for every app.",
+      "slug": "auth0",
+      "url": "https://stri.pe/sl/ImFHUIb8"
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision auth0",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  },
+  {
+    "id": "profile_61UE3TZubXBkuJb26A6UE3TZGsSQ6Fprbs4w1pKKmSq0",
+    "display_name": "Neon",
+    "username": "neon",
+    "description": "Serverless postgres database",
+    "url": "https://stri.pe/sl/GoaUOjOX",
+    "profile_url": "https://stri.pe/sl/laM244ZQ",
+    "is_link_enabled": false,
+    "stripe_apps": {
+      "supported": true,
+      "title": "Neon",
+      "description": "Neon Serverless Postgres is a fully managed database built for developers and agents. It’s scalable, highly performant, and ready for AI.",
+      "slug": "neon-serverless-postgres",
+      "url": "https://stri.pe/sl/AfLnJtCE"
+    },
+    "next_actions": [
+      {
+        "command": "stripe provision neon",
+        "description": "Provision this service using the provisioning API"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "@refinedev/core",
+  "version": "5.2.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "attw": "attw --pack .",
+    "build": "tsup && node ../shared/generate-declarations.js",
+    "dev": "tsup --watch",
+    "prepare": "pnpm build",
+    "publint": "publint --strict=true --level=suggestion",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest",
+    "types": "node ../shared/generate-declarations.js"
+  },
+  "dependencies": {
+    "@refinedev/devtools-internal": "2.0.2",
+    "@tanstack/react-query": "^5.81.5",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "papaparse": "^5.3.0",
+    "pluralize": "^8.0.0",
+    "qs": "^6.10.1",
+    "tslib": "^2.6.2",
+    "warn-once": "^0.1.0"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.81.5",
+    "@types/react": "^18.0.0 || ^19.0.0",
+    "@types/react-dom": "^18.0.0 || ^19.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  }
+}

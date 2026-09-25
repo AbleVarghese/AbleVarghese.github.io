@@ -1,0 +1,84 @@
+PROBLEM: Which foundation best provides a lean, reliable internal admin portal for the proposed professional/career, B2B agency, expert-session, and evidence workflows without replacing the canonical data model or adopting an encumbered CRM/ERP?
+
+== AHP-derived weights (geometric mean) ==
+  licence_and_data_control   22.0
+  workflow_fit             20.0
+  operating_lightness_and_reliability   18.0
+  time_to_validated_workflow   15.0
+  canonical_data_integration   12.0
+  extensibility             8.0
+  owner_stack_alignment     5.0
+  lambda_max=7.000  CI=0.000  CR=0.000  -> consistent (trustworthy)
+  divergence vs stated weights (>8 pts flagged):
+    licence_and_data_control stated  22.0  derived  22.0  d= +0.0
+    workflow_fit         stated  20.0  derived  20.0  d= +0.0
+    operating_lightness_and_reliability stated  18.0  derived  18.0  d= -0.0
+    time_to_validated_workflow stated  15.0  derived  15.0  d= -0.0
+    canonical_data_integration stated  12.0  derived  12.0  d= +0.0
+    extensibility        stated   8.0  derived   8.0  d= -0.0
+    owner_stack_alignment stated   5.0  derived   5.0  d= -0.0
+  (stated weights drive the matrix below)
+
+== Weighted matrix (cost criteria shown raw(adjusted)) ==
+criterion                w%  0 — Native Supab  A — Refine over   B — Baserow OSE   C — Appsmith ove  D — Krayin stand  E — Corteza low-  H — Native data 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+licence_and_data_contr   22                10                10                 8                10                10                10                10
+workflow_fit             20                10                 9                 7                 8                 6                 8                10
+operating_lightness_an   18                 9                 8                 7                 5                 6                 5                 8
+time_to_validated_work   15                 4                 8                 8                 8                 7                 5                 7
+canonical_data_integra   12                10                10                 5                 9                 4                 5                10
+extensibility             8                 9                 9                 7                 8                 6                 9                10
+owner_stack_alignment     5                 9                 8                 7                 8                 5                 6                 8
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+WEIGHTED TOTAL                           8.79              8.96              7.13              8.02              6.74              7.07              9.09
+QUALITY axis                             8.78              9.01              7.14              8.02              6.83              7.13              9.15
+FIT axis                                 9.00              8.00              7.00              8.00              5.00              6.00              8.00
+NOTE: Quality-axis leader (H — Native data first, Refine after spike) != Fit-axis leader (0 — Native Supabase admin) — surface this split; do not average it away silently.
+
+Leader: H — Native data first, Refine after spike (9.09)  Runner-up: A — Refine over canonical database (8.96)  gap=0.13  <-- NEAR-TIE (inside rubric noise; break on reversibility + red-team survivability)
+
+== Podium & dual verdict ==
+  1st  H — Native data first, Refine after spike 9.09
+  2nd  A — Refine over canonical database 8.96
+  3rd  0 — Native Supabase admin 8.79
+  Merit champion (Quality axis, user-agnostic): H — Native data first, Refine after spike (9.15)
+  Overall winner (context + Fit factored, Quality 95 / Fit 5): H — Native data first, Refine after spike (9.09)  — same option: merit and fit agree
+
+== Dominance check ==
+  'B — Baserow OSE as admin foundation' is DOMINATED by 'A — Refine over canonical database' — cannot win under any weighting; eliminate.
+  'C — Appsmith over canonical data' is DOMINATED by 'A — Refine over canonical database' — cannot win under any weighting; eliminate.
+  'D — Krayin standalone CRM' is DOMINATED by 'A — Refine over canonical database' — cannot win under any weighting; eliminate.
+  'E — Corteza low-code CRM/workflow' is DOMINATED by 'A — Refine over canonical database' — cannot win under any weighting; eliminate.
+
+== Sensitivity 1: one-at-a-time (+/-15% per weight) ==
+  stable — no perturbation changes the leader.
+
+== Sensitivity 2: flip-points (smallest weight change that dethrones the leader) ==
+  licence_and_data_control flips at > +200% / > -99%
+  workflow_fit           flips at > +200% / -65%
+  operating_lightness_and_reliability flips at +167% / > -99%
+  time_to_validated_workflow flips at +87% / -67%
+  canonical_data_integration flips at > +200% / > -99%
+  extensibility          flips at > +200% / > -99%
+  owner_stack_alignment  flips at > +200% / > -99%
+
+== Sensitivity 3: Monte Carlo robustness (10000 worlds; weights +/-30%, scores +/-uncertainty; seed=20260923) ==
+  H — Native data first, Refine after spike wins  48.8% of worlds
+  A — Refine over canonical database wins  38.0% of worlds
+  0 — Native Supabase admin wins  13.0% of worlds
+  C — Appsmith over canonical data wins   0.1% of worlds
+  B — Baserow OSE as admin foundation wins   0.0% of worlds
+  D — Krayin standalone CRM wins   0.0% of worlds
+  E — Corteza low-code CRM/workflow wins   0.0% of worlds
+  P(H — Native data first, Refine after spike beats A — Refine over canonical database) = 55.8%
+  verdict: FRAGILE — apply Value of Information: buy the cheapest discriminating test, or prefer the more reversible finalist (top win-rate 48.8%)
+
+== Minimax-regret cross-check (Savage-style, per-criterion weighted regret) ==
+  H — Native data first, Refine after spike max regret 0.180 (on 'operating_lightness_and_reliability')
+  A — Refine over canonical database max regret 0.200 (on 'workflow_fit')
+  0 — Native Supabase admin max regret 0.600 (on 'time_to_validated_workflow')
+  B — Baserow OSE as admin foundation max regret 0.600 (on 'workflow_fit')
+  C — Appsmith over canonical data max regret 0.720 (on 'operating_lightness_and_reliability')
+  E — Corteza low-code CRM/workflow max regret 0.720 (on 'operating_lightness_and_reliability')
+  D — Krayin standalone CRM max regret 0.800 (on 'workflow_fit')
+  agrees with the total-score leader (H — Native data first, Refine after spike).

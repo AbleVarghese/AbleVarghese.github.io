@@ -1,0 +1,4 @@
+POST-COUNCIL FOUNDATION VALIDATION: PASS
+matrix_output=byte-identical recomputation
+peer_review=recorded; service-role=worker-scoped; recovery=time-bounded/audited
+links=resolved; whitespace=clean
